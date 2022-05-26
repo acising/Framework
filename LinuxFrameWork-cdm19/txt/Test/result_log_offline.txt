@@ -1,0 +1,6 @@
+Time: 1652944292426, pid: 26041, processname: bash, label: PT6   The process call sensitive command.   1652944217745000000, label: PT10   Shell command.(rat)   1652944217745000000, maliciousScore: 1.0, confidenceScore: 0.45, 
+Time: 1652945174265, pid: 1465, processname: bash, label: PT6   The process call sensitive command.   1618986740517000000, label: PT10   Shell command.(rat)   1618986740517000000, maliciousScore: 1.0, confidenceScore: 0.45, 
+Time: 1652945174283, pid: 1465, processname: sudo, label: PT6   The process call sensitive command.   1618986740517000000, label: PT10   Shell command.(rat)   1618986740517000000, maliciousScore: 1.0, confidenceScore: 0.45, 
+Time: 1653025631827, pid: 27634, processname: bash, label: PT6   The process call sensitive command.   1653025483502000000, label: PT10   Shell command.(rat)   1653025483502000000, maliciousScore: 1.0, confidenceScore: 0.45, 
+Time: 1653025750106, pid: 1465, processname: bash, label: PT6   The process call sensitive command.   1618986740517000000, label: PT10   Shell command.(rat)   1618986740517000000, maliciousScore: 1.0, confidenceScore: 0.45, 
+Time: 1653025750125, pid: 1465, processname: sudo, label: PT6   The process call sensitive command.   1618986740517000000, label: PT10   Shell command.(rat)   1618986740517000000, maliciousScore: 1.0, confidenceScore: 0.45, 

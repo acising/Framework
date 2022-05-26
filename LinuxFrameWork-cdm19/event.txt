@@ -1,0 +1,16 @@
+0,File read
+1,File write
+2,Fork
+3,Execute
+4,LoadLibrary
+5,File Delete
+6,File Rename
+7,File Create
+8,File Property
+9,Exit
+10,LoadElf
+11,File Open
+12,File Close
+13,Fork with shared open file
+14,File Open with close-on-exec mark
+15,File Mmap

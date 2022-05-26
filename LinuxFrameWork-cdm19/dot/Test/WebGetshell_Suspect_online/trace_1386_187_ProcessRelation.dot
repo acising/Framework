@@ -1,0 +1,13 @@
+digraph graph1 {
+node [shape = record];
+table187 [label = "{<head>processname: touch | pid: 1386 | cmdline: touch secret | starttime: 1618986703085000000 | enddtime: -1 | uuid: 1386}", color = red];
+node [shape = record];
+table172 [label = "{<head>processname: sh | pid: 1378 | cmdline: /bin/sh | starttime: 1618986602273000000 | enddtime: -1 | uuid: 1378}"];
+table172 -> table187;
+node [shape = record];
+table165 [label = "{<head>processname: sh | pid: 1374 | cmdline: /bin/sh /tmp/cleanup.sh | starttime: 1618986602181000000 | enddtime: -1 | uuid: 1374}"];
+table165 -> table172;
+node [shape = record];
+table163 [label = "{<head>processname: sh | pid: 1373 | cmdline: /bin/sh -c /tmp/cleanup.sh | starttime: 1618986602181000000 | enddtime: -1 | uuid: 1373}"];
+table163 -> table165;
+}

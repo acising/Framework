@@ -1,0 +1,68 @@
+unknow 11
+/usr/bin/dpkg --print-foreign-architectures 12
+apt-config shell ARCHIVE_KEYRING APT::Key::ArchiveKeyring 13
+apt-config shell REMOVED_KEYS APT::Key::RemovedKeys 14
+apt-config shell ARCHIVE_KEYRING_URI APT::Key::ArchiveKeyringURI 15
+apt-config shell TRUSTEDFILE Dir::Etc::Trusted/f 16
+apt-config shell GPGV Apt::Key::gpgvcommand 17
+mktemp -d 18
+chmod 700 /tmp/tmp.La8zuTUHdJ 19
+readlink -f /tmp/tmp.La8zuTUHdJ/pubring.gpg 20
+apt-config shell TRUSTEDPARTS Dir::Etc::TrustedParts/d 21
+readlink -f /etc/apt/trusted.gpg.d/ 22
+find /etc/apt/trusted.gpg.d -mindepth 1 -maxdepth 1 -name *.gpg 23
+cp -a /tmp/tmp.La8zuTUHdJ/pubring.gpg /tmp/tmp.La8zuTUHdJ/pubring.orig.gpg 24
+gpgv --homedir /tmp/tmp.La8zuTUHdJ --keyring /tmp/tmp.La8zuTUHdJ/pubring.gpg --ignore-time-conflict --status-fd 3 /tmp/apt.sig.LJMRy8 /tmp/apt.data.uLP22W 25
+rm -rf /tmp/tmp.La8zuTUHdJ 26
+/bin/sh /usr/bin/apt-key --quiet --readonly verify --status-fd 3 /tmp/apt.sig.44XUF6 /tmp/apt.data.008iO1 27
+apt-config shell MASTER_KEYRING APT::Key::MasterKeyring 28
+apt-config shell TRUSTEDFILE Apt::GPGV::TrustedKeyring 29
+sed -e 7323272327222722272367 31
+chmod 700 /tmp/tmp.Cw0deNAGtM 32
+readlink -f /tmp/tmp.Cw0deNAGtM/pubring.gpg 33
+rm -f /tmp/tmp.Cw0deNAGtM/pubring.gpg 34
+touch /tmp/tmp.Cw0deNAGtM/pubring.gpg 35
+cat /etc/apt/trusted.gpg 36
+/bin/sh /usr/bin/apt-key --quiet --readonly verify --status-fd 3 /tmp/apt.sig.Tu2dy6 /tmp/apt.data.hqBaYJ 37
+readlink -f /tmp/tmp.gl3HIwUAAK/pubring.gpg 38
+rm -f /tmp/tmp.gl3HIwUAAK/pubring.gpg 39
+sort 40
+rm -rf /tmp/tmp.gl3HIwUAAK 41
+/bin/sh /usr/bin/apt-key --quiet --readonly verify --status-fd 3 /tmp/apt.sig.HkmTxc /tmp/apt.data.DkP5oZ 42
+/bin/sh /usr/bin/apt-key --quiet --readonly verify --status-fd 3 /tmp/apt.sig.XUUqCw /tmp/apt.data.lrqNnX 48
+chmod 700 /tmp/tmp.u0QnTsz4Eb 49
+readlink -f /tmp/tmp.u0QnTsz4Eb/pubring.gpg 50
+rm -f /tmp/tmp.u0QnTsz4Eb/pubring.gpg 51
+touch /tmp/tmp.u0QnTsz4Eb/pubring.gpg 52
+cat /etc/apt/trusted.gpg.d/webupd8team_ubuntu_java.gpg 53
+cp -a /tmp/tmp.u0QnTsz4Eb/pubring.gpg /tmp/tmp.u0QnTsz4Eb/pubring.orig.gpg 54
+gpgv --homedir /tmp/tmp.u0QnTsz4Eb --keyring /tmp/tmp.u0QnTsz4Eb/pubring.gpg --ignore-time-conflict --status-fd 3 /tmp/apt.sig.XUUqCw /tmp/apt.data.lrqNnX 55
+rm -rf /tmp/tmp.u0QnTsz4Eb 56
+cp -a /tmp/tmp.r0iEfEedbW/pubring.gpg /tmp/tmp.r0iEfEedbW/pubring.orig.gpg 57
+gpgv --homedir /tmp/tmp.r0iEfEedbW --keyring /tmp/tmp.r0iEfEedbW/pubring.gpg --ignore-time-conflict --status-fd 3 /tmp/apt.sig.iLw3qG /tmp/apt.data.wiM7U7 58
+rm -rf /tmp/tmp.r0iEfEedbW 59
+chmod 700 /tmp/tmp.ZhI3h2LdRR 60
+readlink -f /tmp/tmp.ZhI3h2LdRR/pubring.gpg 61
+rm -f /tmp/tmp.ZhI3h2LdRR/pubring.gpg 62
+touch /tmp/tmp.ZhI3h2LdRR/pubring.gpg 63
+gpgv --homedir /tmp/tmp.ZhI3h2LdRR --keyring /tmp/tmp.ZhI3h2LdRR/pubring.gpg --ignore-time-conflict --status-fd 3 /tmp/apt.sig.5aiqNp /tmp/apt.data.M8jhGS 64
+chmod 700 /tmp/tmp.01lUA3Wo3r 65
+cp -a /tmp/tmp.01lUA3Wo3r/pubring.gpg /tmp/tmp.01lUA3Wo3r/pubring.orig.gpg 66
+/bin/sh /usr/bin/apt-key --quiet --readonly verify --status-fd 3 /tmp/apt.sig.bjExX5 /tmp/apt.data.X63awA 67
+rm -f /tmp/tmp.FYB2zIYrmc/pubring.gpg 68
+touch /tmp/tmp.FYB2zIYrmc/pubring.gpg 69
+/bin/sh /usr/bin/apt-key --quiet --readonly verify --status-fd 3 /tmp/apt.sig.GH0y51 /tmp/apt.data.VErrWF 70
+chmod 700 /tmp/tmp.wjIoPZoHmC 71
+readlink -f /tmp/tmp.wjIoPZoHmC/pubring.gpg 72
+rm -f /tmp/tmp.wjIoPZoHmC/pubring.gpg 73
+touch /tmp/tmp.wjIoPZoHmC/pubring.gpg 74
+cp -a /tmp/tmp.wjIoPZoHmC/pubring.gpg /tmp/tmp.wjIoPZoHmC/pubring.orig.gpg 75
+gpgv --homedir /tmp/tmp.wjIoPZoHmC --keyring /tmp/tmp.wjIoPZoHmC/pubring.gpg --ignore-time-conflict --status-fd 3 /tmp/apt.sig.GH0y51 /tmp/apt.data.VErrWF 76
+/bin/sh /usr/bin/apt-key --quiet --readonly verify --status-fd 3 /tmp/apt.sig.zXsPVF /tmp/apt.data.DpIg3k 77
+cp -a /tmp/tmp.UAcSrZacwU/pubring.gpg /tmp/tmp.UAcSrZacwU/pubring.orig.gpg 78
+gpgv --homedir /tmp/tmp.UAcSrZacwU --keyring /tmp/tmp.UAcSrZacwU/pubring.gpg --ignore-time-conflict --status-fd 3 /tmp/apt.sig.zXsPVF /tmp/apt.data.DpIg3k 79
+/bin/sh /usr/bin/apt-key --quiet --readonly verify --status-fd 3 /tmp/apt.sig.YCKv7W /tmp/apt.data.j5WhKC 80
+readlink -f /tmp/tmp.fk3D4ZODe2/pubring.gpg 81
+rm -f /tmp/tmp.fk3D4ZODe2/pubring.gpg 82
+chmod 700 /tmp/tmp.CJtp6J1RpQ 83
+chmod 700 /tmp/tmp.FXBLfa7gEp 84

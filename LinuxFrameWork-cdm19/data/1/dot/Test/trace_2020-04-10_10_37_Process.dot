@@ -1,0 +1,16 @@
+digraph graph1 {
+node [shape = record];
+table4 [label = "{<head>processname: ifconfig | pid: 1098 | cmdline: ifconfig | starttime: 1585289910731000000 | enddtime: 1585289910731000000 | label: PT6 The process call sensitive command. timestamp: 1585289910731000000}", color = red];
+table3 [label = "{<head>processname:  | pid: 1009 | cmdline:  | starttime: 0 | enddtime: -1 | label: PT3 Access data from network. timestamp: 1585290052097000000}"];
+table0 [label = "{<head>processname:  | pid: 0 | cmdline:  | starttime: 0 | enddtime: -1}"];
+table155 [label = "{<head>processname: sudo | pid: 1105 | cmdline: sudo su apt install curl | starttime: 1585290225771000000 | enddtime: -1 | label: PT6 The process call sensitive command. timestamp: 1585290225771000000 | label: PT3 Access data from network. timestamp: 1585290052097000000}", color = red];
+table168 [label = "{<head>processname: sudo | pid: 1107 | cmdline: sudo apt install curl | starttime: 1585290233067000000 | enddtime: -1 | label: PT6 The process call sensitive command. timestamp: 1585290233067000000 | label: PT3 Access data from network. timestamp: 1585290052097000000}", color = red];
+table7128 [label = "{<head>processname: chmod | pid: 17029 | cmdline: chmod a+x vi_passwd | starttime: 1585290676408000000 | enddtime: 1585290676412000000 | label: PT6 The process call sensitive command. timestamp: 1585290676408000000 | label: PT3 Access data from network. timestamp: 1585290052097000000}", color = red];
+table7130 [label = "{<head>processname: bash | pid: 17030 | cmdline:  | starttime: 1585290679792000000 | enddtime: -1 | label: PT4 Execute file from network. timestamp: 1585290052097000000 | label: PT3 Access data from network. timestamp: 1585290052097000000}", color = red];
+table3 -> table4: head;
+table3 -> table155: head;
+table3 -> table168: head;
+table3 -> table7128: head;
+table3 -> table7130: head;
+table0 -> table3: head;
+}

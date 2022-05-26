@@ -1,0 +1,27 @@
+name,pid,ppid,labels
+bash,1283,1259,PT10   Shell command.(rat)   1618985500900000000
+ls,1284,1283,PT10   Shell command.(rat)   1618985500900000000
+bash,1285,1259,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618985500948000000
+lesspipe,1286,1285,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618985500948000000
+basename,1287,1286,PS4   Information Collection (IC)   1618985500948000000
+lesspipe,1288,1286,PS4   Information Collection (IC)   1618985500948000000
+dirname,1290,1288,PS4   Information Collection (IC)   1618985500948000000
+bash,1291,1259,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618985500960000000
+dircolors,1292,1291,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618985500964000000
+bash,1293,1259,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618985500976000000
+ls,1294,1293,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618985500976000000
+,1295,1262
+sftp-server,1296,1295,PT10   Shell command.(rat)   1618985501092000000
+bash,1297,1259,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618985507140000000
+ls,1298,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985507672000000
+wget,1299,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985521583000000,PT1   The process has network connections.   1618985521583000000
+,1236,0
+,670,0
+,423,0
+,1258,1236,PS4   Information Collection (IC)   1618985500948000000
+bash,1259,1258,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985500872000000
+,683,0
+sh,1260,1259,PT10   Shell command.(rat)   1618985500776000000
+xauth,1261,1260,PT10   Shell command.(rat)   1618985500776000000
+,685,0
+,1262,0

@@ -1,0 +1,34 @@
+digraph graph1 {
+node [shape = record];
+table172 [label = "{<head>processname: sh | pid: 1378 | cmdline: /bin/sh | starttime: 1618986602273000000 | enddtime: -1 | uuid: 1378}", color = red];
+node [shape = record];
+table165 [label = "{<head>processname: sh | pid: 1374 | cmdline: /bin/sh /tmp/cleanup.sh | starttime: 1618986602181000000 | enddtime: -1 | uuid: 1374}"];
+table165 -> table172;
+node [shape = record];
+table163 [label = "{<head>processname: sh | pid: 1373 | cmdline: /bin/sh -c /tmp/cleanup.sh | starttime: 1618986602181000000 | enddtime: -1 | uuid: 1373}"];
+table163 -> table165;
+node [shape = record];
+table177 [label = "{<head>processname: ls | pid: 1379 | cmdline: ls | starttime: 1618986609866000000 | enddtime: 1618986609866000000 | uuid: 1379}"];
+table172 -> table177;
+node [shape = record];
+table179 [label = "{<head>processname: cat | pid: 1380 | cmdline: cat /etc/crontab | starttime: 1618986622507000000 | enddtime: 1618986622507000000 | uuid: 1380}"];
+table172 -> table179;
+node [shape = record];
+table180 [label = "{<head>processname: cat | pid: 1381 | cmdline: cat /etc/sudoers | starttime: 1618986648760000000 | enddtime: 1618986648864000000 | uuid: 1381}"];
+table172 -> table180;
+node [shape = record];
+table182 [label = "{<head>processname: cat | pid: 1382 | cmdline: cat 737061646509414c4c3d28414c4c3a414c4c2920414c4c | starttime: 1618986666261000000 | enddtime: 1618986666261000000 | uuid: 1382}"];
+table172 -> table182;
+node [shape = record];
+table183 [label = "{<head>processname: cat | pid: 1383 | cmdline: cat /etc/passwd | starttime: 1618986693208000000 | enddtime: 1618986693208000000 | uuid: 1383}"];
+table172 -> table183;
+node [shape = record];
+table184 [label = "{<head>processname: cat | pid: 1384 | cmdline: cat .bash_history | starttime: 1618986697596000000 | enddtime: 1618986697596000000 | uuid: 1384}"];
+table172 -> table184;
+node [shape = record];
+table186 [label = "{<head>processname: ls | pid: 1385 | cmdline: ls | starttime: 1618986700881000000 | enddtime: 1618986700881000000 | uuid: 1385}"];
+table172 -> table186;
+node [shape = record];
+table187 [label = "{<head>processname: touch | pid: 1386 | cmdline: touch secret | starttime: 1618986703085000000 | enddtime: 1618986703089000000 | uuid: 1386}"];
+table172 -> table187;
+}

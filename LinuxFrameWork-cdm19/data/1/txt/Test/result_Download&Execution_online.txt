@@ -1,0 +1,1 @@
+Time: 1586486231956, pid: 17030, processname: bash, label: PT4   Execute file from network.   1585290052097000000, label: PT3   Access data from network.   1585290052097000000, maliciousScore: 0.0, confidenceScore: 0.45, 

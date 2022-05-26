@@ -1,0 +1,38 @@
+digraph graph1 {
+node [shape = Mrecord];
+table239 [label = "{<head>processname: cat | pid: 1463 | cmdline: cat /home/manager/secret | starttime: 1618986730443000000 | enddtime: -1 | label: PS4 Information Collection (IC) timestamp: 1618985500948000000 | label: PS5 Data Exfiltration timestamp: 1618985500876000000 | label: PT8 The uploaded file is read.(webshell) timestamp: 1653025665015 | label: PT10 Shell command.(rat) timestamp: 1618986730443000000}", color = red];
+table63 [shape = record, label = "{<head>filename: /home/spade/.bash_history | label: FS4 bash_history timestamp: 1618985500948000000}"];
+table239 -> table63[label = "action: 0  FS4->PS4"];
+table216 [shape = record, label = "{<head>filename: /tmp/sh-thd-200574468 | label: FS5 high price file timestamp: 1618985500948000000}"];
+table194 [label = "{<head>processname: bash | pid: 1410 | cmdline: -bash | starttime: 1618986719524000000 | enddtime: -1 | label: PS4 Information Collection (IC) timestamp: 1618985500948000000 | label: PS5 Data Exfiltration timestamp: 1618985500948000000 | label: PT10 Shell command.(rat) timestamp: 1618986719524000000}"];
+table194 -> table63[label = "action: 0  FS4->PS4"];
+table194 -> table216[label = "action: 1  PS4->FS5"];
+table239 -> table216[label = "action: 0  FS5->PS5"];
+table189 [shape = record, label = "{<head>filename: /home/manager/secret | label: FS5 high price file timestamp: 1618985500876000000 | label: FT9 The File is written by webshell. timestamp: 1653025665015}"];
+table184 [label = "{<head>processname: cat | pid: 1384 | cmdline: cat .bash_history | starttime: 1618986697596000000 | enddtime: 1618986697596000000 | label: PS4 Information Collection (IC) timestamp: 1618986697596000000 | label: PS3 Credential Access (CA) timestamp: 1618985500876000000 | label: PT9 Execute any command.(webshell) timestamp: 1653025665015 | label: PT8 The uploaded file is read.(webshell) timestamp: 1653025665015 | label: PT10 Shell command.(rat) timestamp: 1618986697596000000 | label: PS2 Privilege Escalation timestamp: 1618986648760000000 | label: PS1 Persistent Stronghold timestamp: 1618986166123000000}"];
+table184 -> table189[label = "action: 1  PS4->FS5"];
+table183 [label = "{<head>processname: cat | pid: 1383 | cmdline: cat /etc/passwd | starttime: 1618986693208000000 | enddtime: 1618986693208000000 | label: PS3 Credential Access (CA) timestamp: 1618985500876000000 | label: PT9 Execute any command.(webshell) timestamp: 1653025665015 | label: PT8 The uploaded file is read.(webshell) timestamp: 1653025665015 | label: PT10 Shell command.(rat) timestamp: 1618986693208000000 | label: PS2 Privilege Escalation timestamp: 1618986648760000000 | label: PS1 Persistent Stronghold timestamp: 1618986166123000000 | label: PT2 The process read sensitive information. timestamp: 1618985500876000000}"];
+table41 [shape = record, label = "{<head>filename: /etc/passwd | label: FT2 The file is sensitive as default. timestamp: 1618985500876000000 | label: FS3 passwd timestamp: 1618985500876000000}"];
+table183 -> table41[label = "action: 0  FS3->PS3"];
+table183 -> table189[label = "action: 1  PS3->FS5"];
+table172 [label = "{<head>processname: sh | pid: 1378 | cmdline: /bin/sh | starttime: 1618986602273000000 | enddtime: -1 | label: PS4 Information Collection (IC) timestamp: 1618986697596000000 | label: PS3 Credential Access (CA) timestamp: 1618985500876000000 | label: PT9 Execute any command.(webshell) timestamp: 1653025665015 | label: PT8 The uploaded file is read.(webshell) timestamp: 1653025665015 | label: PT10 Shell command.(rat) timestamp: 1618986602269000000 | label: PS2 Privilege Escalation timestamp: 1618986648760000000 | label: PS1 Persistent Stronghold timestamp: 1618986166123000000}"];
+table181 [shape = record, label = "{<head>filename: /etc/sudoers | label: FS2 sudoers timestamp: 1618986648760000000 | label: FT2 The file is sensitive as default. timestamp: 1618986648760000000 | label: FS5 high price file timestamp: 1618986166123000000 | label: FT9 The File is written by webshell. timestamp: 1653025665015}"];
+table172 -> table181[label = "action: 1  FS2->PS2"];
+table172 -> table189[label = "action: 1  PS2->FS5"];
+table153 [shape = record, label = "{<head>filename: /etc/crontab | label: FS1 crontab timestamp: 1618986166123000000 | label: FT9 The File is written by webshell. timestamp: 1653025665015}"];
+table172 -> table153[label = "action: 1  FS1->PS1"];
+table172 -> table189[label = "action: 1  PS1->FS5"];
+table239 -> table189[label = "action: 0  FS5->PS5"];
+table172 -> table189[label = "action: 1  PT9->FT9"];
+table239 -> table189[label = "action: 0  FT9->PT8"];
+table194 -> table239[label = "event: Create process"];
+node [shape = record];
+table193 [label = "{<head>processname:  | pid: 1409 | cmdline:  | starttime: 0 | enddtime: -1 | uuid: 1409}"];
+table193 -> table194[label = "event: Create process"];
+node [shape = record];
+table191 [label = "{<head>processname:  | pid: 1387 | cmdline:  | starttime: 0 | enddtime: -1 | uuid: 1387}"];
+table191 -> table193[label = "event: Create process"];
+node [shape = record];
+table0 [label = "{<head>processname:  | pid: 0 | cmdline:  | starttime: 0 | enddtime: -1 | uuid: 0}"];
+table0 -> table191[label = "event: Create process"];
+}

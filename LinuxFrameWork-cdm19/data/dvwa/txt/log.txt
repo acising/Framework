@@ -1,0 +1,1 @@
+type: 0, father: pid: 31111, processname: vi_passwd, label0: PT2  The process read sensitive information., son: filepath: /etc/passwd, label1: FT2  The file is sensitive as default., labeltime: 1586399410197000000, grammar: PT2,0,FT2,R

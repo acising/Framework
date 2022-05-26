@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="kafkaclients-CDM19">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/kafkaclients-CDM19.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,18 @@
+sudo wget/bin/bash ./phpstudy.bin 7
+id -u 8
+ls --color=auto 88
+mv config.inc.php.dist config.inc.php 93
+/usr/bin/mandb -pq 94
+ls --color=auto -alF 101
+chmod 755 uploads/ 102
+rm phpstudy.bin 204
+cat .sudo_as_admin_successful 205
+vi .profile 206
+config.inc.php 96
+sudo vi config.inc.php 98
+sudo chown -R mysql.mysql backup data log mysql phpstudy.sh server www 100
+sudo chmod 755 uploads/ 104
+sudo chmod +w uploads/ 106
+sudo chmod a+w uploads/ 108
+sudo SPADE/bin/spade stop 208
+op 207

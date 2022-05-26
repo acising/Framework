@@ -1,0 +1,32 @@
+PT1,0,1,TRUE,The process has network connections.
+PT4,0,0.5,PHF,Execute file from network.
+FT1,0,0.5,FALSE,The file contains data from network.
+PT2,1,1,PHF,The process read sensitive information.
+PT5,1,1,PHF,The process execute sensitive file.
+FT2,0,1,FALSE,The file is sensitive as default.
+PT3,0,0.5,CodeSource,Access data from network.
+FT3,0,1,FALSE,The file is from portable device.
+FT4,0,1,FALSE,File is modified or created recently.
+FT5,0,1,FALSE,File is writed by a process which execute untrust code.
+FT6,0,1,FALSE,The file is sensitive.
+PT6,1,1,PHF,The process call sensitive command.
+FT7,1,1,FALSE,The file is uploaded.(webshell)
+PT7,1,1,PHF,The uploaded file is mmap.(webshell)
+PT8,1,1,PHF,The uploaded file is read.(webshell)
+PT9,1,1,PHF,Execute any command.(webshell)
+PT10,1,1,PHF,Shell command.(rat)
+FT8,1,1,FALSE,Nonexistent file.(livingoffland)
+PT11,1,1,PHF,The process interact with nonexistent file.(livingoffland)
+FT9,1,1,PHF,The File is written by webshell.
+FT10,1,1,PHF,The File is written by RAT.
+FT11,1,1,PHF,The File is written by livingoffland.
+FS1,0,0,FALSE,crontab
+FS2,0,0,FALSE,sudoers
+FS3,0,0,FALSE,passwd
+FS4,0,0,FALSE,bash_history
+FS5,0,0,FALSE,high price file
+PS1,1,1,PHF,Persistent Stronghold
+PS2,1,1,PHF,Privilege Escalation
+PS3,1,1,PHF,Credential Access (CA)
+PS4,1,1,PHF,Information Collection (IC)
+PS5,1,1,PHF,Data Exfiltration

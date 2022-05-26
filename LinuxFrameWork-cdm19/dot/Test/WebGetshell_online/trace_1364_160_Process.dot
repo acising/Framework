@@ -1,0 +1,4 @@
+digraph graph1 {
+node [shape = Mrecord];
+table160 [label = "{<head>processname: ls | pid: 1364 | cmdline: ls -l /tmp | starttime: 1618986179109000000 | enddtime: -1 | label: PT7 The uploaded file is mmap.(webshell) timestamp: 1618986121320000000 | label: PT9 Execute any command.(webshell) timestamp: 1653025665015 | label: PT10 Shell command.(rat) timestamp: 1618986179109000000}", color = red];
+}

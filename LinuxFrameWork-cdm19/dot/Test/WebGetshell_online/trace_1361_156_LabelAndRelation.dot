@@ -1,0 +1,19 @@
+digraph graph1 {
+node [shape = Mrecord];
+table156 [label = "{<head>processname: cat | pid: 1361 | cmdline: cat /tmp/cleanup.sh | starttime: 1618986174463000000 | enddtime: -1 | label: PT7 The uploaded file is mmap.(webshell) timestamp: 1618986121320000000 | label: PT9 Execute any command.(webshell) timestamp: 1653025665015 | label: PT10 Shell command.(rat) timestamp: 1618986174463000000}", color = red];
+node [shape = record];
+table155 [label = "{<head>processname: sh | pid: 1360 | cmdline: /bin/sh -c 6364202f7661722f7777772f68746d6c3b636174202f746d702f636c65616e75702e73683b6563686f205b535d3b7077643b6563686f205b455d | starttime: 1618986174463000000 | enddtime: -1 | uuid: 1360}"];
+table155 -> table156[label = "event: Create process"];
+node [shape = record];
+table154 [label = "{<head>processname: sh | pid: 1359 | cmdline: sh -c 2f62696e2f7368202d632022636420222f7661722f7777772f68746d6c223b636174202f746d702f636c65616e75702e73683b6563686f205b535d3b7077643b6563686f205b455d2220323e2631 | starttime: 1618986174463000000 | enddtime: -1 | uuid: 1359}"];
+table154 -> table155[label = "event: Create process"];
+node [shape = record];
+table136 [label = "{<head>processname:  | pid: 1343 | cmdline:  | starttime: 0 | enddtime: -1 | uuid: 1343}"];
+table136 -> table154[label = "event: Create process"];
+node [shape = record];
+table135 [label = "{<head>processname:  | pid: 925 | cmdline:  | starttime: 0 | enddtime: -1 | uuid: 925}"];
+table135 -> table136[label = "event: Create process"];
+node [shape = record];
+table0 [label = "{<head>processname:  | pid: 0 | cmdline:  | starttime: 0 | enddtime: -1 | uuid: 0}"];
+table0 -> table135[label = "event: Create process"];
+}

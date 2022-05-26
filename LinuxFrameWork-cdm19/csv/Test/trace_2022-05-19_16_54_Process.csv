@@ -1,0 +1,122 @@
+name,pid,ppid,labels
+bash,1283,1259,PT10   Shell command.(rat)   1618985500900000000
+ls,1284,1283,PT10   Shell command.(rat)   1618985500900000000
+bash,1285,1259,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618985500948000000
+lesspipe,1286,1285,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618985500948000000
+basename,1287,1286,PS4   Information Collection (IC)   1618985500948000000
+lesspipe,1288,1286,PS4   Information Collection (IC)   1618985500948000000
+dirname,1290,1288,PS4   Information Collection (IC)   1618985500948000000
+bash,1291,1259,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618985500960000000
+dircolors,1292,1291,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618985500964000000
+bash,1293,1259,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618985500976000000
+ls,1294,1293,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618985500976000000
+,1295,1262
+sftp-server,1296,1295,PT10   Shell command.(rat)   1618985501092000000
+bash,1297,1259,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618985507140000000
+,1041,0,PT10   Shell command.(rat)   0
+ls,1298,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985507672000000
+wget,1299,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985521583000000,PT1   The process has network connections.   1618985521583000000
+,1300,0
+,1301,1300
+,1322,1300
+bash,1323,1322,PT10   Shell command.(rat)   1618985552267000000
+free,1324,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985581795000000
+wget,1325,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985583599000000,PT1   The process has network connections.   1618985583599000000
+free,1326,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985673319000000
+free,1327,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985684223000000
+wget,1328,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985688919000000,PT1   The process has network connections.   1618985688919000000
+free,1329,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985775666000000
+free,1330,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985782370000000
+free,1331,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985784582000000
+wget,1332,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985791614000000,PT1   The process has network connections.   1618985791614000000
+free,1334,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985878946000000
+wget,1335,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985881626000000,PT1   The process has network connections.   1618985881630000000
+free,1336,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985933292000000
+wget,1337,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985934568000000,PT1   The process has network connections.   1618985934568000000
+free,1338,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985992814000000
+wget,1339,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985993906000000,PT1   The process has network connections.   1618985993906000000
+free,1340,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618986047501000000
+wget,1341,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618986048589000000,PT1   The process has network connections.   1618986048589000000
+free,1342,1259,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618986092932000000
+,1343,925,PT7   The uploaded file is mmap.(webshell)   1618986121320000000
+sh,1354,936,PT10   Shell command.(rat)   1618986161781000000
+sh,1355,1354,PT10   Shell command.(rat)   1618986161781000000
+sh,1356,934,PT10   Shell command.(rat)   1618986166107000000
+sh,1357,1356,PT10   Shell command.(rat)   1618986166107000000
+cat,1358,1357,PT10   Shell command.(rat)   1618986166123000000
+sh,1359,1343,PT7   The uploaded file is mmap.(webshell)   1618986121320000000,PT9   Execute any command.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986174463000000
+sh,1360,1359,PT7   The uploaded file is mmap.(webshell)   1618986121320000000,PT9   Execute any command.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986174463000000
+cat,1361,1360,PT7   The uploaded file is mmap.(webshell)   1618986121320000000,PT9   Execute any command.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986174463000000
+sh,1362,932,PT7   The uploaded file is mmap.(webshell)   1618986121320000000,PT9   Execute any command.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986179109000000
+sh,1363,1362,PT7   The uploaded file is mmap.(webshell)   1618986121320000000,PT9   Execute any command.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986179109000000
+ls,1364,1363,PT7   The uploaded file is mmap.(webshell)   1618986121320000000,PT9   Execute any command.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986179109000000
+sh,1367,933,PT7   The uploaded file is mmap.(webshell)   1618986121320000000,PT9   Execute any command.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986281293000000
+sh,1368,1367,PT7   The uploaded file is mmap.(webshell)   1618986121320000000,PT9   Execute any command.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986281293000000
+parentNeverShowUp,-1,0
+sh,1373,-1,PT10   Shell command.(rat)   1618986602181000000
+sh,1374,1373,PT8   The uploaded file is read.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986602181000000
+rm,1375,1374,PT9   Execute any command.(webshell)   1652945086106,PT8   The uploaded file is read.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986602185000000
+mkfifo,1376,1374,PT9   Execute any command.(webshell)   1652945086106,PT8   The uploaded file is read.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986602229000000
+nc,1377,1374,PT9   Execute any command.(webshell)   1652945086106,PT8   The uploaded file is read.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986602269000000
+sh,1378,1374,PS4   Information Collection (IC)   1618986697596000000,PS3   Credential Access (CA)   1618985500876000000,PT9   Execute any command.(webshell)   1652945086106,PT8   The uploaded file is read.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986602269000000,PS2   Privilege Escalation   1618986648760000000,PS1   Persistent Stronghold   1618986166123000000
+ls,1379,1378,PT9   Execute any command.(webshell)   1652945086106,PT8   The uploaded file is read.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986609866000000
+cat,1380,1378,PT9   Execute any command.(webshell)   1652945086106,PT8   The uploaded file is read.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986622507000000
+cat,1381,1378,PT9   Execute any command.(webshell)   1652945086106,PT8   The uploaded file is read.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986648760000000,PS1   Persistent Stronghold   1618986166123000000,PT2   The process read sensitive information.   1618986648760000000
+cat,1382,1378,PT9   Execute any command.(webshell)   1652945086106,PT8   The uploaded file is read.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986666261000000,PS1   Persistent Stronghold   1618986166123000000
+cat,1383,1378,PS3   Credential Access (CA)   1618985500876000000,PT9   Execute any command.(webshell)   1652945086106,PT8   The uploaded file is read.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986693208000000,PS2   Privilege Escalation   1618986648760000000,PS1   Persistent Stronghold   1618986166123000000,PT2   The process read sensitive information.   1618985500876000000
+cat,1384,1378,PS4   Information Collection (IC)   1618986697596000000,PS3   Credential Access (CA)   1618985500876000000,PT9   Execute any command.(webshell)   1652945086106,PT8   The uploaded file is read.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986697596000000,PS2   Privilege Escalation   1618986648760000000,PS1   Persistent Stronghold   1618986166123000000
+ls,1385,1378,PS4   Information Collection (IC)   1618986697596000000,PS3   Credential Access (CA)   1618985500876000000,PT9   Execute any command.(webshell)   1652945086106,PT8   The uploaded file is read.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986700881000000,PS2   Privilege Escalation   1618986648760000000,PS1   Persistent Stronghold   1618986166123000000
+touch,1386,1378,PS4   Information Collection (IC)   1618986697596000000,PS3   Credential Access (CA)   1618985500876000000,PT9   Execute any command.(webshell)   1652945086106,PT8   The uploaded file is read.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986703085000000,PS2   Privilege Escalation   1618986648760000000,PS1   Persistent Stronghold   1618986166123000000
+,1387,0
+,1409,1387,PS4   Information Collection (IC)   1618985500948000000
+bash,1410,1409,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618986719524000000
+sh,1411,1410,PT10   Shell command.(rat)   1618986719396000000
+xauth,1412,1411,PT10   Shell command.(rat)   1618986719400000000
+,1413,0
+,1435,1413
+sftp-server,1436,1435,PT10   Shell command.(rat)   1618986719600000000
+,925,0,PT7   The uploaded file is mmap.(webshell)   1618986121320000000
+bash,1437,1410,PT10   Shell command.(rat)   1618986719652000000
+,670,0
+ls,1438,1437,PT10   Shell command.(rat)   1618986719652000000
+bash,1439,1410,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618986719828000000
+lesspipe,1440,1439,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618986719828000000
+basename,1441,1440,PS4   Information Collection (IC)   1618985500948000000
+lesspipe,1442,1440,PS4   Information Collection (IC)   1618985500948000000
+dirname,1443,1442,PS4   Information Collection (IC)   1618985500948000000
+,932,925,PT7   The uploaded file is mmap.(webshell)   1618986121320000000
+bash,1444,1410,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618986719868000000
+,933,925,PT7   The uploaded file is mmap.(webshell)   1618986121320000000
+dircolors,1445,1444,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618986719868000000
+,934,925
+bash,1446,1410,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618986719884000000
+,423,0
+,935,925,PT7   The uploaded file is mmap.(webshell)   1618986121320000000
+ls,1447,1446,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618986719884000000
+,936,925
+bash,1448,1410,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618986722665000000
+bash,1449,1410,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618986722665000000
+bash,1450,1410,PS4   Information Collection (IC)   1618985500948000000,PT10   Shell command.(rat)   1618986723441000000
+,683,0
+bash,1451,1410,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618986723449000000
+bash,1452,1410,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618986724369000000
+,685,0
+bash,1453,1410,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618986724373000000
+bash,1454,1410,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618986725053000000
+bash,1455,1410,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618986725057000000
+ls,1456,1410,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618986725721000000
+bash,1457,1410,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618986727926000000
+bash,1458,1410,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618986727930000000
+bash,1459,1410,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618986728510000000
+bash,1460,1410,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618986728514000000
+bash,1461,1410,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618986730002000000
+bash,1462,1410,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618986730006000000
+cat,1463,1410,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500876000000,PT8   The uploaded file is read.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986730443000000
+rm,1464,1374,PT9   Execute any command.(webshell)   1652945086106,PT8   The uploaded file is read.(webshell)   1652945086106,PT10   Shell command.(rat)   1618986733955000000
+sudo,1465,1041,PT6   The process call sensitive command.   1618986740517000000,PT10   Shell command.(rat)   1618986740517000000
+,1236,0
+,1258,1236,PS4   Information Collection (IC)   1618985500948000000
+bash,1259,1258,PS4   Information Collection (IC)   1618985500948000000,PS5   Data Exfiltration   1618985500948000000,PT10   Shell command.(rat)   1618985500872000000
+sh,1260,1259,PT10   Shell command.(rat)   1618985500776000000
+xauth,1261,1260,PT10   Shell command.(rat)   1618985500776000000
+,1262,0

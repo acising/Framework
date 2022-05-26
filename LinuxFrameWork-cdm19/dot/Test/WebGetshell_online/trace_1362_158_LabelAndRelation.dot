@@ -1,0 +1,13 @@
+digraph graph1 {
+node [shape = Mrecord];
+table158 [label = "{<head>processname: sh | pid: 1362 | cmdline: sh -c 2f62696e2f7368202d632022636420222f7661722f7777772f68746d6c223b6c73202d6c202f746d703b6563686f205b535d3b7077643b6563686f205b455d2220323e2631 | starttime: 1618986179109000000 | enddtime: -1 | label: PT7 The uploaded file is mmap.(webshell) timestamp: 1618986121320000000 | label: PT9 Execute any command.(webshell) timestamp: 1653025665015 | label: PT10 Shell command.(rat) timestamp: 1618986179109000000}", color = red];
+node [shape = record];
+table134 [label = "{<head>processname:  | pid: 932 | cmdline:  | starttime: 0 | enddtime: -1 | uuid: 932}"];
+table134 -> table158[label = "event: Create process"];
+node [shape = record];
+table135 [label = "{<head>processname:  | pid: 925 | cmdline:  | starttime: 0 | enddtime: -1 | uuid: 925}"];
+table135 -> table134[label = "event: Create process"];
+node [shape = record];
+table0 [label = "{<head>processname:  | pid: 0 | cmdline:  | starttime: 0 | enddtime: -1 | uuid: 0}"];
+table0 -> table135[label = "event: Create process"];
+}
